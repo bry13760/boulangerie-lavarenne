@@ -12,6 +12,11 @@
 </head>
 <body>
 
+<!-- ===== ÉCRAN D'INTRODUCTION ===== -->
+<div class="intro-splash" id="introSplash" aria-hidden="true">
+  <p>Pendant que la ville dort,<br><em>la confection commence.</em></p>
+</div>
+
 <!-- ===== BARRE D'INFOS ===== -->
 <div class="topbar">
   <div class="topbar-inner">
@@ -74,7 +79,7 @@
   <div class="divider" aria-hidden="true">— ⚘ —</div>
   <div class="specialites-grid">
     <a href="produits.html#pains" class="specialite-card">
-      <img src="assets/cat-pains.jpg" alt="Pains artisanaux" onerror="this.parentElement.classList.add('img-fallback')">
+      <img src="assets/cat-pains.jpg" alt="Vitrine de pains artisanaux Lavarenne" onerror="this.parentElement.classList.add('img-fallback')">
       <div class="specialite-label"><span class="icon">⚘</span>Pains artisanaux</div>
     </a>
     <a href="produits.html#viennoiseries" class="specialite-card">
@@ -151,11 +156,11 @@
       <a href="produits.html" class="btn btn-primary">Découvrir notre atelier →</a>
     </div>
     <div class="savoir-faire-media">
-      <!-- VIDÉO À REMPLACER : vous en train de façonner un pain ou d'enfourner, 20-40s -->
       <div class="video-block">
-        <img src="assets/atelier-video-cover.jpg" alt="Le boulanger dans son atelier" onerror="this.style.display='none'">
-        <button class="play-btn" aria-label="Voir la vidéo de l'atelier">▶</button>
-        <span class="video-caption">Voir notre atelier en vidéo</span>
+        <video controls poster="assets/atelier-video-cover.jpg" preload="none">
+          <source src="assets/atelier-video.mp4" type="video/mp4">
+        </video>
+        <span class="video-caption">Notre atelier</span>
       </div>
       <div class="mini-gallery">
         <img src="assets/gallery-1.jpg" alt="Croissants sortis du four" onerror="this.parentElement.style.display='none'">
@@ -170,13 +175,10 @@
 <section class="section univers" id="maison">
   <h2 class="section-title">Notre univers gourmand</h2>
   <div class="univers-strip">
-    <img src="assets/univers-1.jpg" alt="Pain de campagne" onerror="this.style.display='none'">
-    <img src="assets/univers-2.jpg" alt="Baguettes tradition" onerror="this.style.display='none'">
-    <img src="assets/univers-3.jpg" alt="Sandwichs maison" onerror="this.style.display='none'">
-    <img src="assets/univers-4.jpg" alt="Pâtisseries aux fruits rouges" onerror="this.style.display='none'">
-    <img src="assets/univers-5.jpg" alt="Intérieur de la boutique" onerror="this.style.display='none'">
-    <img src="assets/univers-6.jpg" alt="Pizza maison" onerror="this.style.display='none'">
-    <img src="assets/univers-7.jpg" alt="Dessert au chocolat" onerror="this.style.display='none'">
+    <img src="assets/univers-1.jpg" alt="Étal de pains du jour" onerror="this.style.display='none'">
+    <img src="assets/univers-2.jpg" alt="Sélection de pains maison en vitrine" onerror="this.style.display='none'">
+    <img src="assets/univers-3.jpg" alt="Pains artisanaux fraîchement sortis du four" onerror="this.style.display='none'">
+    <img src="assets/univers-4.jpg" alt="Vitrine de pains artisanaux Lavarenne" onerror="this.style.display='none'">
   </div>
 </section>
 
