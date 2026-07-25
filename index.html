@@ -12,6 +12,11 @@
 </head>
 <body>
 
+<!-- ===== ÉCRAN D'INTRODUCTION ===== -->
+<div class="intro-splash" id="introSplash" aria-hidden="true">
+  <p>Pendant que la ville dort,<br><em>la confection commence.</em></p>
+</div>
+
 <!-- ===== BARRE D'INFOS ===== -->
 <div class="topbar">
   <div class="topbar-inner">
@@ -38,7 +43,7 @@
     </a>
     <nav class="main-nav">
       <a href="index.html" class="active">Accueil</a>
-      <a href="produits.html">Nos produits</a>
+      <a href="Produits.html">Nos produits</a>
       <a href="index.html#maison">La maison</a>
       <a href="index.html#avis">Avis clients</a>
       <a href="index.html#actualites">Actualités</a>
@@ -53,7 +58,7 @@
 <section class="hero">
   <div class="hero-media">
     <!-- PHOTO À REMPLACER : gros plan de vos mains façonnant un pain, four ou pétrin en fond -->
-    <img src="assets/hero-boulanger.jpg" alt="Le boulanger de Lavarenne façonnant un pain artisanal" onerror="this.style.display='none'">
+    <img src="hero-boulanger.jpg" alt="Le boulanger de Lavarenne façonnant un pain artisanal" onerror="this.style.display='none'">
     <div class="hero-overlay"></div>
   </div>
   <div class="hero-content">
@@ -61,7 +66,7 @@
     <h1>Le goût de la tradition,<br><em>la passion du savoir-faire.</em></h1>
     <p class="hero-text">Pains artisanaux, viennoiseries dorées, pâtisseries maison et restauration gourmande, préparés chaque jour avec des ingrédients sélectionnés et beaucoup d'amour.</p>
     <div class="hero-actions">
-      <a href="produits.html" class="btn btn-primary">Découvrir nos produits →</a>
+      <a href="Produits.html" class="btn btn-primary">Découvrir nos produits →</a>
       <a href="#histoire" class="btn btn-outline">Notre histoire →</a>
     </div>
   </div>
@@ -73,28 +78,28 @@
   <h2 class="section-title">Nos spécialités</h2>
   <div class="divider" aria-hidden="true">— ⚘ —</div>
   <div class="specialites-grid">
-    <a href="produits.html#pains" class="specialite-card">
-      <img src="assets/cat-pains.jpg" alt="Pains artisanaux" onerror="this.parentElement.classList.add('img-fallback')">
+    <a href="Produits.html#pains" class="specialite-card">
+      <img src="cat-pains.jpg" alt="Pains artisanaux" onerror="this.parentElement.classList.add('img-fallback')">
       <div class="specialite-label"><span class="icon">⚘</span>Pains artisanaux</div>
     </a>
-    <a href="produits.html#viennoiseries" class="specialite-card">
-      <img src="assets/cat-viennoiseries.jpg" alt="Viennoiseries pur beurre" onerror="this.parentElement.classList.add('img-fallback')">
+    <a href="Produits.html#viennoiseries" class="specialite-card">
+      <img src="cat-viennoiseries.jpg" alt="Viennoiseries pur beurre" onerror="this.parentElement.classList.add('img-fallback')">
       <div class="specialite-label"><span class="icon">◐</span>Viennoiseries pur beurre</div>
     </a>
-    <a href="produits.html#patisseries" class="specialite-card">
-      <img src="assets/cat-patisseries.jpg" alt="Pâtisseries maison" onerror="this.parentElement.classList.add('img-fallback')">
+    <a href="Produits.html#patisseries" class="specialite-card">
+      <img src="cat-patisseries.jpg" alt="Pâtisseries maison" onerror="this.parentElement.classList.add('img-fallback')">
       <div class="specialite-label"><span class="icon">✿</span>Pâtisseries maison</div>
     </a>
-    <a href="produits.html#sandwichs" class="specialite-card">
-      <img src="assets/cat-sandwichs.jpg" alt="Sandwichs et salades" onerror="this.parentElement.classList.add('img-fallback')">
+    <a href="Produits.html#sandwichs" class="specialite-card">
+      <img src="cat-sandwichs.jpg" alt="Sandwichs et salades" onerror="this.parentElement.classList.add('img-fallback')">
       <div class="specialite-label"><span class="icon">◧</span>Sandwichs &amp; salades</div>
     </a>
-    <a href="produits.html#pizzas" class="specialite-card">
-      <img src="assets/cat-pizzas.jpg" alt="Pizzas maison" onerror="this.parentElement.classList.add('img-fallback')">
+    <a href="Produits.html#pizzas" class="specialite-card">
+      <img src="cat-pizzas.jpg" alt="Pizzas maison" onerror="this.parentElement.classList.add('img-fallback')">
       <div class="specialite-label"><span class="icon">◍</span>Pizzas maison</div>
     </a>
-    <a href="produits.html#petitdejeuner" class="specialite-card">
-      <img src="assets/cat-petitdej.jpg" alt="Petit-déjeuner et café" onerror="this.parentElement.classList.add('img-fallback')">
+    <a href="Produits.html#petitdejeuner" class="specialite-card">
+      <img src="cat-petitdej.jpg" alt="Petit-déjeuner et café" onerror="this.parentElement.classList.add('img-fallback')">
       <div class="specialite-label"><span class="icon">◔</span>Petit-déjeuner &amp; café</div>
     </a>
   </div>
@@ -148,19 +153,19 @@
         <li><span class="icon">◔</span>Fabrication artisanale</li>
         <li><span class="icon">✿</span>Produits frais chaque jour</li>
       </ul>
-      <a href="produits.html" class="btn btn-primary">Découvrir notre atelier →</a>
+      <a href="Produits.html" class="btn btn-primary">Découvrir notre atelier →</a>
     </div>
     <div class="savoir-faire-media">
-      <!-- VIDÉO À REMPLACER : vous en train de façonner un pain ou d'enfourner, 20-40s -->
       <div class="video-block">
-        <img src="assets/atelier-video-cover.jpg" alt="Le boulanger dans son atelier" onerror="this.style.display='none'">
-        <button class="play-btn" aria-label="Voir la vidéo de l'atelier">▶</button>
-        <span class="video-caption">Voir notre atelier en vidéo</span>
+        <video controls poster="atelier-video-cover.jpg" preload="none">
+          <source src="atelier-video.mp4" type="video/mp4">
+        </video>
+        <span class="video-caption">Notre atelier</span>
       </div>
       <div class="mini-gallery">
-        <img src="assets/gallery-1.jpg" alt="Croissants sortis du four" onerror="this.parentElement.style.display='none'">
-        <img src="assets/gallery-2.jpg" alt="Fraisier maison" onerror="this.parentElement.style.display='none'">
-        <img src="assets/gallery-3.jpg" alt="Façonnage de la pâte" onerror="this.parentElement.style.display='none'">
+        <img src="gallery-1.jpg" alt="Croissants sortis du four" onerror="this.parentElement.style.display='none'">
+        <img src="gallery-2.jpg" alt="Fraisier maison" onerror="this.parentElement.style.display='none'">
+        <img src="gallery-3.jpg" alt="Façonnage de la pâte" onerror="this.parentElement.style.display='none'">
       </div>
     </div>
   </div>
@@ -170,13 +175,10 @@
 <section class="section univers" id="maison">
   <h2 class="section-title">Notre univers gourmand</h2>
   <div class="univers-strip">
-    <img src="assets/univers-1.jpg" alt="Pain de campagne" onerror="this.style.display='none'">
-    <img src="assets/univers-2.jpg" alt="Baguettes tradition" onerror="this.style.display='none'">
-    <img src="assets/univers-3.jpg" alt="Sandwichs maison" onerror="this.style.display='none'">
-    <img src="assets/univers-4.jpg" alt="Pâtisseries aux fruits rouges" onerror="this.style.display='none'">
-    <img src="assets/univers-5.jpg" alt="Intérieur de la boutique" onerror="this.style.display='none'">
-    <img src="assets/univers-6.jpg" alt="Pizza maison" onerror="this.style.display='none'">
-    <img src="assets/univers-7.jpg" alt="Dessert au chocolat" onerror="this.style.display='none'">
+    <img src="univers-1.jpg" alt="Vitrine de pains artisanaux" onerror="this.style.display='none'">
+    <img src="univers-2.jpg" alt="Vitrine de pains artisanaux" onerror="this.style.display='none'">
+    <img src="univers-3.jpg" alt="Vitrine de pains artisanaux" onerror="this.style.display='none'">
+    <img src="cat-pains.jpg" alt="Pains artisanaux Lavarenne" onerror="this.style.display='none'">
   </div>
 </section>
 
@@ -193,12 +195,12 @@
     </div>
     <div class="contact-photo">
       <!-- PHOTO À REMPLACER : façade de la boutique -->
-      <img src="assets/facade.jpg" alt="Façade de la Boulangerie Lavarenne" onerror="this.style.display='none'">
+      <img src="facade.jpg" alt="Façade de la Boulangerie Lavarenne" onerror="this.style.display='none'">
       <button class="visite-btn">◐ Visite virtuelle 360°</button>
     </div>
     <div class="contact-map">
-      <iframe title="Carte Boulangerie Lavarenne" src="https://www.google.com/maps?q=77+Avenue+Fortun%C3%A9+Ferrini+13080+Aix-en-Provence&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <a class="itineraire-btn" href="https://www.google.com/maps/dir/?api=1&destination=77+Avenue+Fortun%C3%A9+Ferrini+13080+Aix-en-Provence" target="_blank" rel="noopener">Itinéraire →</a>
+      <iframe title="Carte Boulangerie Lavarenne" src="https://www.google.com/maps?q=43.5097897,5.4416153&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <a class="itineraire-btn" href="https://www.google.com/maps/dir/?api=1&destination=43.5097897,5.4416153" target="_blank" rel="noopener">Itinéraire →</a>
     </div>
   </div>
 </section>

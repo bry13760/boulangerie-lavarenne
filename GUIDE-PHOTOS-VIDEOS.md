@@ -22,7 +22,7 @@ Le site est prêt et fonctionnel avec des emplacements réservés. Pour qu'il s'
 
 Pour chaque catégorie, une image de couverture vidéo + une photo par produit de la gamme :
 
-- **Pains** : `video-pains.jpg` puis `prod-baguette.jpg`, `prod-campagne.jpg`, `prod-cereales.jpg`, `prod-seigle.jpg`, `prod-fougasse.jpg`
+- **Pains** : `video-pains.jpg` puis `prod-noix.jpg`, `prod-fruite.jpg`, `prod-noir.jpg`, `prod-cereales2.jpg`, `prod-oson.jpg`, `prod-epeautre.jpg`, `prod-mais.jpg`, `prod-tourteseigle.jpg`
 - **Viennoiseries** : `video-viennoiseries.jpg` puis `prod-croissant.jpg`, `prod-painchoco.jpg`, `prod-chausson.jpg`, `prod-brioche.jpg`, `prod-raisin.jpg`
 - **Pâtisseries** : `video-patisseries.jpg` puis `prod-tarte.jpg`, `prod-eclair.jpg`, `prod-parisbrest.jpg`, `prod-millefeuille.jpg`, `prod-fraisier.jpg`
 - **Sandwichs** : `video-sandwichs.jpg` puis `prod-jambonbeurre.jpg`, `prod-poulet.jpg`, `prod-thon.jpg`, `prod-vege.jpg`, `prod-club.jpg`
