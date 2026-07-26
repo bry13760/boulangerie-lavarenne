@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nos produits — Boulangerie Lavarenne</title>
+<meta name="description" content="Découvrez toute la gamme de la Boulangerie Lavarenne : pains artisanaux, viennoiseries, pâtisseries maison, sandwichs, pizzas et petit-déjeuner.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="produits.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <span><i class="icon">◐</i> Pain chaud toute la journée</span>
+    <span><i class="icon">◷</i> Ouvert tous les jours 6h – 20h</span>
+    <span class="hide-mobile"><i class="icon">▭</i> Grand parking gratuit</span>
+  </div>
+  <div class="topbar-social">
+    <a href="#" aria-label="Facebook">f</a>
+    <a href="#" aria-label="Instagram">◎</a>
+  </div>
+</div>
+
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-wheat">⌂</span>
+      <span class="logo-text">
+        <span class="logo-eyebrow">Boulangerie</span>
+        <span class="logo-name">Lavarenne</span>
+        <span class="logo-sub">Célony · Aix-en-Provence</span>
+      </span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="produits.html" class="active">Nos produits</a>
+      <a href="index.html#maison">La maison</a>
+      <a href="index.html#avis">Avis clients</a>
+      <a href="index.html#actualites">Actualités</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a href="tel:0442951032" class="phone-pill">04 42 95 10 32</a>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu">☰</button>
+  </div>
+</header>
+
+<!-- ===== BANNIÈRE PAGE ===== -->
+<section class="produits-hero">
+  <p class="eyebrow">Notre carte</p>
+  <h1>Nos produits</h1>
+  <p class="produits-hero-text">Choisissez une gamme pour découvrir tous les produits qui la composent.</p>
+</section>
+
+<!-- ===== NAVIGATION CATÉGORIES (sticky) ===== -->
+<nav class="cat-nav" id="cat-nav">
+  <button data-target="pains" class="cat-btn active"><span class="icon">⚘</span>Pains artisanaux</button>
+  <button data-target="viennoiseries" class="cat-btn"><span class="icon">◐</span>Viennoiseries</button>
+  <button data-target="patisseries" class="cat-btn"><span class="icon">✿</span>Pâtisseries maison</button>
+  <button data-target="sandwichs" class="cat-btn"><span class="icon">◧</span>Sandwichs &amp; salades</button>
+  <button data-target="pizzas" class="cat-btn"><span class="icon">◍</span>Pizzas maison</button>
+  <button data-target="petitdejeuner" class="cat-btn"><span class="icon">◔</span>Petit-déjeuner &amp; café</button>
+</nav>
+
+<!-- ===== SECTIONS PRODUITS ===== -->
+<main class="produits-main">
+
+  <section class="produit-section" id="pains">
+    <div class="produit-section-head">
+      <div>
+        <h2><span class="icon">⚘</span>Pains artisanaux</h2>
+        <p>Pétris et façonnés à la main chaque matin, cuits sur pierre pour une croûte croustillante et une mie alvéolée.</p>
+      </div>
+      <div class="video-block small">
+        <video controls poster="video-pains-frame.jpg" preload="none">
+          <source src="video-pains-clip.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="produit-scroll">
+      <div class="produit-card"><img src="prod-noix.jpg" onerror="this.style.display='none'" alt="Pain aux noix"><p>Pain aux noix</p></div>
+      <div class="produit-card"><img src="prod-fruite.jpg" onerror="this.style.display='none'" alt="Pain fruité"><p>Fruité</p></div>
+      <div class="produit-card"><img src="prod-noir.jpg" onerror="this.style.display='none'" alt="Pain noir"><p>Pain noir</p></div>
+      <div class="produit-card"><img src="prod-cereales2.jpg" onerror="this.style.display='none'" alt="Pain aux céréales"><p>Céréales</p></div>
+      <div class="produit-card"><img src="prod-oson.jpg" onerror="this.style.display='none'" alt="Pain O'son"><p>O'son</p></div>
+      <div class="produit-card"><img src="prod-epeautre.jpg" onerror="this.style.display='none'" alt="Petit épeautre"><p>Petit épeautre</p></div>
+      <div class="produit-card"><img src="prod-mais.jpg" onerror="this.style.display='none'" alt="Pain au maïs"><p>Maïs</p></div>
+      <div class="produit-card"><img src="prod-tourteseigle.jpg" onerror="this.style.display='none'" alt="Tourte de seigle"><p>Tourte de seigle</p></div>
+    </div>
+  </section>
+
+  <section class="produit-section" id="viennoiseries">
+    <div class="produit-section-head">
+      <div>
+        <h2><span class="icon">◐</span>Viennoiseries pur beurre</h2>
+        <p>Feuilletage travaillé au beurre AOP, doré et croustillant, préparé toutes les nuits pour un plaisir dès l'ouverture.</p>
+      </div>
+      <div class="video-block small">
+        <!-- VIDÉO À REMPLACER : feuilletage / sortie de four des croissants -->
+        <img src="video-viennoiseries.jpg" alt="Feuilletage des viennoiseries" onerror="this.style.display='none'">
+        <button class="play-btn" aria-label="Voir la vidéo viennoiseries">▶</button>
+      </div>
+    </div>
+    <div class="produit-scroll">
+      <div class="produit-card"><img src="prod-croissant.png" onerror="this.style.display='none'" alt="Croissant pur beurre"><p>Croissant pur beurre</p></div>
+      <div class="produit-card"><img src="prod-painchoco.png" onerror="this.style.display='none'" alt="Pain au chocolat"><p>Pain au chocolat</p></div>
+      <div class="produit-card"><img src="Suisse .webp" onerror="this.style.display='none'" alt="Suisse"><p>Suisse</p></div>
+      <div class="produit-card"><img src="prod-chausson.jpg" onerror="this.style.display='none'" alt="Chausson aux pommes"><p>Chausson aux pommes</p></div>
+      <div class="produit-card"><img src="brioche-sucre.webp" onerror="this.style.display='none'" alt="Brioche"><p>Brioche</p></div>
+      <div class="produit-card"><img src="Pain aux raisins .webp" onerror="this.style.display='none'" alt="Pain aux raisins"><p>Pain aux raisins</p></div>
+    </div>
+  </section>
+
+  <section class="produit-section" id="patisseries">
+    <div class="produit-section-head">
+      <div>
+        <h2><span class="icon">✿</span>Pâtisseries maison</h2>
+        <p>Des classiques revisités et des créations de saison, préparés en petites quantités pour une fraîcheur maximale.</p>
+      </div>
+      <div class="video-block small">
+        <!-- VIDÉO À REMPLACER : dressage d'une pâtisserie, pochage de crème -->
+        <img src="video-patisseries.jpg" alt="Dressage d'une pâtisserie" onerror="this.style.display='none'">
+        <button class="play-btn" aria-label="Voir la vidéo pâtisseries">▶</button>
+      </div>
+    </div>
+    <div class="produit-scroll">
+      <div class="produit-card"><img src="prod-tarte.jpg" onerror="this.style.display='none'" alt="Tarte aux fruits"><p>Tarte aux fruits</p></div>
+      <div class="produit-card"><img src="prod-eclair.jpg" onerror="this.style.display='none'" alt="Éclair"><p>Éclair</p></div>
+      <div class="produit-card"><img src="prod-parisbrest.jpg" onerror="this.style.display='none'" alt="Paris-Brest"><p>Paris-Brest</p></div>
+      <div class="produit-card"><img src="prod-millefeuille.jpg" onerror="this.style.display='none'" alt="Mille-feuille"><p>Mille-feuille</p></div>
+      <div class="produit-card"><img src="prod-fraisier.jpg" onerror="this.style.display='none'" alt="Fraisier"><p>Fraisier</p></div>
+    </div>
+  </section>
+
+  <section class="produit-section" id="sandwichs">
+    <div class="produit-section-head">
+      <div>
+        <h2><span class="icon">◧</span>Sandwichs &amp; salades</h2>
+        <p>Préparés sur nos pains maison avec des produits frais, à emporter ou à déguster sur place.</p>
+      </div>
+      <div class="video-block small">
+        <!-- VIDÉO À REMPLACER : garnissage d'un sandwich au comptoir -->
+        <img src="video-sandwichs.jpg" alt="Préparation d'un sandwich" onerror="this.style.display='none'">
+        <button class="play-btn" aria-label="Voir la vidéo sandwichs">▶</button>
+      </div>
+    </div>
+    <div class="produit-scroll">
+      <div class="produit-card"><img src="prod-jambonbeurre.jpg" onerror="this.style.display='none'" alt="Jambon beurre"><p>Jambon beurre</p></div>
+      <div class="produit-card"><img src="prod-poulet.jpg" onerror="this.style.display='none'" alt="Poulet crudités"><p>Poulet crudités</p></div>
+      <div class="produit-card"><img src="prod-thon.jpg" onerror="this.style.display='none'" alt="Thon mayonnaise"><p>Thon mayonnaise</p></div>
+      <div class="produit-card"><img src="prod-vege.jpg" onerror="this.style.display='none'" alt="Sandwich végétarien"><p>Végétarien</p></div>
+      <div class="produit-card"><img src="prod-club.jpg" onerror="this.style.display='none'" alt="Club sandwich"><p>Club sandwich</p></div>
+    </div>
+  </section>
+
+  <section class="produit-section" id="pizzas">
+    <div class="produit-section-head">
+      <div>
+        <h2><span class="icon">◍</span>Pizzas maison</h2>
+        <p>Pâte maison, cuite au four, garnie d'ingrédients sélectionnés. Disponibles à la part ou entières.</p>
+      </div>
+      <div class="video-block small">
+        <!-- VIDÉO À REMPLACER : étalage de pâte, sortie de four de la pizza -->
+        <img src="video-pizzas.jpg" alt="Préparation d'une pizza" onerror="this.style.display='none'">
+        <button class="play-btn" aria-label="Voir la vidéo pizzas">▶</button>
+      </div>
+    </div>
+    <div class="produit-scroll">
+      <div class="produit-card"><img src="prod-margherita.jpg" onerror="this.style.display='none'" alt="Margherita"><p>Margherita</p></div>
+      <div class="produit-card"><img src="prod-reine.jpg" onerror="this.style.display='none'" alt="Reine"><p>Reine</p></div>
+      <div class="produit-card"><img src="prod-chevremiel.jpg" onerror="this.style.display='none'" alt="Chèvre miel"><p>Chèvre miel</p></div>
+      <div class="produit-card"><img src="prod-4fromages.jpg" onerror="this.style.display='none'" alt="4 fromages"><p>4 fromages</p></div>
+      <div class="produit-card"><img src="prod-pizzavege.jpg" onerror="this.style.display='none'" alt="Pizza végétarienne"><p>Végétarienne</p></div>
+    </div>
+  </section>
+
+  <section class="produit-section" id="petitdejeuner">
+    <div class="produit-section-head">
+      <div>
+        <h2><span class="icon">◔</span>Petit-déjeuner &amp; café</h2>
+        <p>Formules gourmandes et café de qualité, à déguster sur place dès le matin.</p>
+      </div>
+      <div class="video-block small">
+        <!-- VIDÉO À REMPLACER : préparation d'un café, dressage d'une formule petit-déjeuner -->
+        <img src="video-petitdej.jpg" alt="Préparation d'un café" onerror="this.style.display='none'">
+        <button class="play-btn" aria-label="Voir la vidéo petit-déjeuner">▶</button>
+      </div>
+    </div>
+    <div class="produit-scroll">
+      <div class="produit-card"><img src="prod-formule.jpg" onerror="this.style.display='none'" alt="Formule petit-déjeuner"><p>Formule petit-déjeuner</p></div>
+      <div class="produit-card"><img src="prod-cafe.jpg" onerror="this.style.display='none'" alt="Café"><p>Café</p></div>
+      <div class="produit-card"><img src="prod-chocolat.jpg" onerror="this.style.display='none'" alt="Chocolat chaud"><p>Chocolat chaud</p></div>
+      <div class="produit-card"><img src="prod-jusfrais.jpg" onerror="this.style.display='none'" alt="Jus frais"><p>Jus frais</p></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-wheat">⌂</span>
+      <div>
+        <div class="logo-name">Lavarenne</div>
+        <div class="logo-sub">Célony · Aix-en-Provence</div>
+      </div>
+    </div>
+    <form class="newsletter" onsubmit="return false;">
+      <p>Restez informé de nos actualités</p>
+      <p class="footer-fine">Nouveautés, promotions, événements…</p>
+      <div class="newsletter-row">
+        <input type="email" placeholder="Votre adresse email" required>
+        <button type="submit">S'inscrire</button>
+      </div>
+    </form>
+    <div class="footer-social">
+      <p>Suivez-nous</p>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">◎</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Boulangerie Lavarenne — Tous droits réservés.</p>
+    <div class="footer-links">
+      <a href="#">Mentions légales</a>
+      <a href="#">Politique de confidentialité</a>
+      <a href="#">Plan du site</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="produits.js"></script>
+</body>
+</html>
