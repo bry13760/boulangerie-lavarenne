@@ -10,22 +10,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="produits.css">
-<style>
-  .produits-hero{position:relative;overflow:hidden;}
-  .produits-hero .hero-logo-bg{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    width:640px;
-    max-width:90vw;
-    height:auto;
-    opacity:0.16;
-    pointer-events:none;
-    z-index:0;
-  }
-  .produits-hero > *{position:relative;z-index:1;}
-</style>
 </head>
 <body>
 
@@ -66,7 +50,6 @@
 
 <!-- ===== BANNIÈRE PAGE ===== -->
 <section class="produits-hero">
-  <img src="logo-lavarenne.webp" alt="" class="hero-logo-bg" aria-hidden="true">
   <p class="eyebrow">Notre carte</p>
   <h1>Nos produits</h1>
   <p class="produits-hero-text">Choisissez une gamme pour découvrir tous les produits qui la composent.</p>
@@ -92,8 +75,8 @@
         <p>Pétris et façonnés à la main chaque matin, cuits sur pierre pour une croûte croustillante et une mie alvéolée.</p>
       </div>
       <div class="video-block small">
-        <video controls poster="video-pains-frame.jpg" preload="none">
-          <source src="video-pains-clip.mp4" type="video/mp4">
+        <video controls poster="atelier-vidéo-couverture.jpg" preload="none">
+          <source src="atelier-vidéo.mp4" type="video/mp4">
         </video>
       </div>
     </div>
@@ -124,10 +107,9 @@
     <div class="produit-scroll">
       <div class="produit-card"><img src="prod-croissant.png" onerror="this.style.display='none'" alt="Croissant pur beurre"><p>Croissant pur beurre</p></div>
       <div class="produit-card"><img src="prod-painchoco.png" onerror="this.style.display='none'" alt="Pain au chocolat"><p>Pain au chocolat</p></div>
-      <div class="produit-card"><img src="Suisse .webp" onerror="this.style.display='none'" alt="Suisse"><p>Suisse</p></div>
       <div class="produit-card"><img src="prod-chausson.jpg" onerror="this.style.display='none'" alt="Chausson aux pommes"><p>Chausson aux pommes</p></div>
-      <div class="produit-card"><img src="brioche-sucre.webp" onerror="this.style.display='none'" alt="Brioche"><p>Brioche</p></div>
-      <div class="produit-card"><img src="Pain aux raisins .webp" onerror="this.style.display='none'" alt="Pain aux raisins"><p>Pain aux raisins</p></div>
+      <div class="produit-card"><img src="prod-brioche.jpg" onerror="this.style.display='none'" alt="Brioche"><p>Brioche</p></div>
+      <div class="produit-card"><img src="prod-raisin.jpg" onerror="this.style.display='none'" alt="Pain aux raisins"><p>Pain aux raisins</p></div>
     </div>
   </section>
 
